@@ -1,0 +1,30 @@
+// UserForm.module.scss
+.formControl {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+
+  label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+
+  input,
+  textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+    &:focus {
+      outline: none;
+      border-color: #333;
+    }
+  }
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}

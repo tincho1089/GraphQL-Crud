@@ -1,0 +1,26 @@
+.CustomButton {
+  background-color: #6700d7;
+  border-color: #6700d7;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 0.5em 1em;
+  transition: background-color 0.3s ease;
+  font-family: 'Apertura-Bold', sans-serif;
+  height: auto;
+  margin: 0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .CustomButton {
+    font-size: 18px;
+    padding: 0.75em 1.5em;
+  }
+}
+
+.CustomButton:hover {
+  background-color: #9191f7;
+}
